@@ -1,0 +1,27 @@
+.About {
+  color: white;
+  margin: 0 auto;
+}
+
+.About h2 {
+  font-size: 50px;
+  padding-left: 80px;
+  margin: 120px 0 30px;
+  color: rgb(176, 195, 245);
+}
+.About p {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+hr {
+  border: solid;
+  max-width: 900px;
+  position: relative;
+  top: -40px;
+  margin-left: 15%;
+}
+.About .Row {
+  text-align: center;
+  margin: 30px 12px 20px;
+}

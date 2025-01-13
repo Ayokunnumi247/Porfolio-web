@@ -1,0 +1,49 @@
+:root {
+  --font-family: Arial, Helvetica, sans-serif;
+  --text-align: center;
+  --color: white;
+}
+
+.Home {
+  margin: 0 auto;
+  max-width: 100%;
+  color: var(--color);
+}
+
+.Home h5 {
+  margin-top: 100px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: var(--text-align);
+  font-family: var(--font-family);
+  line-height: 1.5;
+}
+.Home h3 {
+  text-align: var(--text-align);
+  font-size: 50px;
+}
+.Home h4 {
+  font-size: 25px;
+  margin-bottom: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+.Home .Contact {
+  background: rgb(3, 40, 247);
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 40px;
+  margin: 50px 0 10px;
+  box-shadow: 0px -1px 14px rgba(0, 0, 0, 0.3);
+  color: white;
+  border: solid 1px;
+}
+
+.Contact:hover {
+  background-color: rgb(247, 247, 249);
+  color: black;
+  transition: ease-in-out 1.5ms;
+}
